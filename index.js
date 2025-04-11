@@ -14,9 +14,6 @@ const db = mysql.createConnection({
   password: '@Akshaymysql',
   database: 'studentdb',
   port: 3306,
-  ssl: {
-    rejectUnauthorized:true
-  }
 });
 
 db.connect(err => {
